@@ -1,0 +1,24 @@
+{
+  "name": "todolist_project",
+  "version": "1.0.0",
+  "description": "a practice project for the Launch school ciriculum'",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sashalikesplanes/todolist_project.git"
+  },
+  "keywords": [
+    "Launch",
+    "School"
+  ],
+  "author": "Sasha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sashalikesplanes/todolist_project/issues"
+  },
+  "homepage": "https://github.com/sashalikesplanes/todolist_project#readme"
+}
