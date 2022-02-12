@@ -11,14 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/sashalikesplanes/todolist_project.git"
   },
-  "dependencies": {
-    "express": "4",
-    "http-errors": "1",
-    "lodash": "^4.17.21",
-    "morgan": "1.9"
-  },
+  "dependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "babel": "babel lib --out-dir dist --presets=@babel/preset-env"
   },
   "keywords": [
     "Launch",
@@ -29,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/sashalikesplanes/todolist_project/issues"
   },
-  "homepage": "https://github.com/sashalikesplanes/todolist_project#readme"
+  "homepage": "https://github.com/sashalikesplanes/todolist_project#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11"
+  }
 }
