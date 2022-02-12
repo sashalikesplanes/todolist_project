@@ -1,5 +1,5 @@
 {
-  "name": "todolist_project",
+  "name": "todolist",
   "version": "1.0.0",
   "description": "a practice project for the Launch school ciriculum'",
   "main": "index.js",
@@ -10,6 +10,14 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sashalikesplanes/todolist_project.git"
+  },
+  "dependencies": {
+    "express": "4",
+    "http-errors": "1",
+    "morgan": "1.9",
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "Launch",
